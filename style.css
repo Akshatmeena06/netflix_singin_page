@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.or {
+  margin: 10px;
+}
+
+.default-ltr-cache-8hdzfz {
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  margin: 0 auto;
+  padding: 0 5%;
+}
+.default-ltr-cache-1und4li {
+  margin-block-start: 0;
+  margin-block-end: 0;
+  margin: 0;
+  padding: 0;
+  color: rgba(255, 255, 255, 0.7);
+  font-size: 1rem;
+  font-weight: 400;
+  text-align: center;
+}
+.header {
+  background-color: rgba(8, 8, 8, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  width: 100%;
+  position: sticky;
+  top: 0px;
+}
+.header .logo {
+  margin-left: 20px;
+}
+p {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  unicode-bidi: isolate;
+}
+
+/*  */
+footer {
+  background-color: rgb(9, 9, 9, 0.8);
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* left: 30%; */
+  align-items: center;
+  width: 100vw;
+  height: 650px;
+  bottom: 1px;
+}
+.m {
+  display: block;
+  width: 80%;
+  height: 300px;
+}
+.m1 {
+  width: 100%;
+  height: 20%;
+ 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+.m0 {
+  width: 50%;
+}
+
+.m0 a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s;
+}
+.m0 a:hover {
+  color: red;
+  transform: scale(1.2);
+  text-shadow: 5px 5px 7px rgb(11, 227, 242);
+}
+
+.m2 {
+  width: 100%;
+  height: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.li {
+  margin: 10px;
+  width: 30%;
+  height: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.m2 .li a {
+  text-decoration: none;
+  color: #fff;
+  transition: all 0.5s;
+}
+
+.m2 .li:hover a {
+  color: red;
+  transform: scale(1.2);
+  transform: rotate(360deg);
+  text-shadow: 5px 5px 7px rgb(11, 227, 242);
+}
+body {
+  font-family: "Arial", sans-serif;
+  background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/826348c2-cdcb-42a0-bc11-a788478ba5a2/6d20b198-e7ab-4e9f-a1aa-666faa0298f9/IN-en-20240729-POP_SIGNUP_TWO_WEEKS-perspective_WEB_a67d8c9e-8121-4a74-98e4-8005eb2df227_large.jpg");
+
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+#remember-me {
+  width: 15px;
+  height: 15px;
+}
+
+.login-container {
+  z-index: 999;
+  width: 400px;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.75);
+  border-radius: 8px;
+  text-align: center;
+}
+
+.logo img {
+  width: 150px;
+  margin-top: 20px;
+}
+
+.login-form h2 {
+  margin-bottom: 20px;
+  justify-content: left;
+}
+
+.login-form input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  margin: 10px 0;
+  background: rgba(22, 22, 22, 0.7);
+  border: 0 solid white;
+  border-width: 0.0625rem;
+  border-color: rgba(128, 128, 128, 0.7);
+  border-style: inset;
+  border-radius: 4px;
+  /* border: 1px solid white; */
+  /* outline: #fff solid 1px; */
+  color: rgb(244, 234, 234);
+}
+::placeholder {
+  color: white;
+}
+
+.login-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #e50914;
+  border: none;
+  border-radius: 4px;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+}
+#si {
+  background-color: rgba(82, 81, 81, 0.5);
+}
+#fp {
+  position: relative;
+  top: 15px;
+  text-decoration: none;
+  color: white;
+}
+#bi {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+
+  background-color: rgb(8, 8, 8, 0.5);
+}
+
+.help-options {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  font-size: 12px;
+  color: #b3b3b3;
+}
+
+.signup-now {
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+.signup-now a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.signup-now a:hover {
+  text-decoration: underline;
+}
+
+.bottom-links {
+  margin-top: 20px;
+  font-size: 12px;
+}
+
+.bottom-links a {
+  color: #b3b3b3;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.bottom-links a:hover {
+  text-decoration: underline;
+}
